@@ -1,12 +1,11 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-//Global employees array
-let employees = []
 
 // Collect employee data
 const collectEmployees = function() {
   
+  let employees = []
   // Prompts for user input
   do {
   let firstNameInput = window.prompt("Enter first name:");
